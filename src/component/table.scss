@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  width: 30%;
+  border: 1px solid black;
+  outline: none;
+  margin: 20px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  &:focus-within {
+    box-shadow: 0px 0px 7px rgba(68, 64, 64, 0.7);
+  }
+}
+button {
+  cursor: pointer;
+  width: 30%;
+  padding: 9px;
+  margin: 10px;
+  border-radius: 10px;
+}
+table {
+  margin: 20px 10%;
+  width: 80%;
+  border-radius: 10px;
+  th {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  td {
+    text-align: center;
+  }
+}
+
+.inputt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row-reverse;
+  box-sizing: border-box;
+  span span.active {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  span span {
+    cursor: pointer;
+  }
+}
